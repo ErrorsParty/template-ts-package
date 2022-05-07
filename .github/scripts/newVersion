@@ -63,6 +63,8 @@ for (const message of messages) {
 	}
 }
 
+if (last[0] === "none") process.exit(0);
+
 // prettier-ignore
 JSON.stringify(data, null, 2).split("\n").forEach(line => console.log(line));
 console.log("::set-output name=step::" + last[0]);
