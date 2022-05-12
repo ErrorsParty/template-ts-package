@@ -18,5 +18,5 @@ async function main(args: string[]) {
 
 // Run main if this is the main file.
 if (require?.main?.filename === __filename) {
-	main(process.argv.slice(1)).catch(console.error);
+	main(process.argv.slice(2)).catch(console.error);
 }
