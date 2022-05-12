@@ -33,6 +33,7 @@
 !/tsconfig.json
 !/rollup.config.js
 !/package.json
+!/package-lock.json
 !/.eslintrc.json
 !/.prettierrc.json
 
